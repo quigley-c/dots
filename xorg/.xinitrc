@@ -5,5 +5,4 @@ rm ~/.fehbg
 feh --bg-fill --randomize ~/.wallpaper/active/* &
 xrdb .Xresources &
 picom -b &
-exec sxhkd &
-exec bspwm &
+exec Hypr
