@@ -4,7 +4,11 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	alacritty
+
+# web browser
+super + shift + Return
+	firefox
 
 # program launcher
 super + @space
@@ -119,3 +123,7 @@ super + alt + shift + {Left,Down,Up,Right}
 # move a floating window
 super + {h,j,k,l}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# change the background
+super + alt + b
+	feh --bg-fill --randomize ~/.wallpaper/active*
