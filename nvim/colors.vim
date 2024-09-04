@@ -1,13 +1,15 @@
 :hi! Normal			guifg=#FFFFFF guibg=NONE
 :hi! EndOfBuffer	guifg=#FFFFFF
 :hi! Comment		guifg=#999999
-:hi! Identifier		guifg=#77AACC
-:hi! Constant		guifg=#FFFFAA
-:hi! Statement		guifg=#8888AA
-:hi! PreProc		guifg=#CC8833
+:hi! Identifier		guifg=#0087af
+:hi! Function		guifg=#00d7ff
+:hi! Constant		guifg=#d70087
+:hi! String			guifg=#d70087
+:hi! Statement		guifg=#d70087
+:hi! PreProc		guifg=#00d7ff
 :hi! Type			guifg=#3388AA
-:hi! Special		guifg=#FFAA55
+:hi! Special		guifg=#0087af
 :hi! Underlined		guifg=#77AACC
-:hi! Error			guifg=#FFFFFF guibg=#772233
-:hi! Todo			guifg=#000000 guibg=#FFFFAA
+:hi! Error			guifg=#FFFFFF guibg=#d70087
+:hi! Todo			guifg=#000000 guibg=#00d7ff
 ":hi! Ignore

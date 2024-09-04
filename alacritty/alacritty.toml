@@ -1,0 +1,13 @@
+[colors.primary]
+background = "#000000"
+foreground = "#FFFFFF"
+
+[font]
+size = 16.0
+
+[font.normal]
+family = "Source Code Pro"
+
+[window]
+decorations = "none"
+opacity = 0.8

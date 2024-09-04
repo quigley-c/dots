@@ -1,15 +1,14 @@
-#! /bin/sh
+#!/bin/sh
 
 # source ~/scripts/enforce_monitor_position DP-0 '^1' &
-sxhkd &
 
 #bspc monitor DP-2 -n right -d I II III IV V
 #bspc monitor DP-4 -n center -d VI VII VIII IX X
 
 bspc monitor $(bspc query -M) -n 1 -d i ii iii iv v vi vii viii ix x
 
-bspc config border_width         2
-bspc config window_gap          12
+bspc config border_width        1
+bspc config window_gap			0
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true

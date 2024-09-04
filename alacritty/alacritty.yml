@@ -1,0 +1,15 @@
+---
+window:
+ decorations:	none
+ opacity:		0.8
+
+font:
+ normal:
+  family: 'Source Code Pro'
+ size: 10.0
+
+colors:
+ primary:
+  background:			'#000000'
+  foreground:			'#FFFFFF'
+...
